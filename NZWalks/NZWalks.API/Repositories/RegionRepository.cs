@@ -6,7 +6,7 @@ namespace NZWalks.API.Repositories
 {
     public class RegionRepository : IRegionRepository
     {
-        private readonly NZWalksDbContext nZWalksDbContext;
+        private readonly NZWalksDbContext nZWalksDbContext; 
 
         public RegionRepository(NZWalksDbContext nZWalksDbContext) 
         {
